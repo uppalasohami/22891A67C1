@@ -1,0 +1,136 @@
+/* 🌈 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* App Container */
+.app {
+  width: 95%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+}
+
+/* Header */
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #ffd369;
+}
+
+.header p {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.url-field {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.url-field input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  background: rgba(255,255,255,0.9);
+  color: #333;
+}
+
+.url-field input:focus {
+  border: 2px solid #ffd369;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.add-btn {
+  background: #ff6f61;
+  color: #fff;
+}
+
+.shorten-btn {
+  background: #4cafef;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Result Card */
+.result-card {
+  background: #222831;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #eee;
+}
+
+.result-card a {
+  color: #ffd369;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copy-btn {
+  margin-top: 10px;
+  background: #ffd369;
+  color: #333;
+  font-weight: bold;
+}
+
+.copied-msg {
+  margin-left: 10px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
